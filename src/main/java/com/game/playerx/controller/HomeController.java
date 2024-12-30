@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 @Controller
 public class HomeController {
-	private RestTemplate rest = new RestTemplate();
+	private RestTemplate restTemplate = new RestTemplate();
 
 	@GetMapping("/login")
 	public String login() {
